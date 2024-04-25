@@ -12,7 +12,7 @@ export default function Login() {
   const [error, setError] = useState("");
   const navigation = useNavigation();
   // Credenciais
-  const credentialsEmail = "123";
+  const credentialsEmail = "aluno@email.com";
   const credentialsPassword = "123";
 
   function handleSubmit() {
