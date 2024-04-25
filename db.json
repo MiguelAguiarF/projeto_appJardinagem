@@ -1,0 +1,76 @@
+{
+    "plantas": [
+        { 
+            "id": 0,
+            "nome": "Tulipa",
+            "nome_cientifico":"Tulipa schrenckii",
+            "desc":"É a espécie de flor mais difundida na Holanda. A sua altura está entre os 30 e 60 cm, dependendo da variedade. A tulipa teve seu nome originado da palavra turco-otomana “Tulbend”, que significa “turbante”, que é um adereço usado pelos homens turcos, por ter sua forma muito parecida com a de um turbante.",
+            "luminosidade" : "Baixa",
+            "nessecidade_Agua":"Média",
+            "imagem": "tulipa.jpg",
+            "dica1": "Evite deixar a tulipa exposta sob o sol;",
+            "dica2": "Colocar a plantas em locais com temperaturas amenas;",
+            "dica3": "Devem ser regadas 1 a 2 vezes por semana;",
+            "dica4": "Evitar deixar a terra encharcada;",
+            "dica5": "Se o clima estiver seco ou com altas temperaturas, coloque uma pedrinha de gelo sobre o vaso da tulipa, isso ajudará a reduzir a temperatura da planta."
+        },
+        { 
+            "id": 1,
+            "nome": "Orquídea-borboleta",
+            "nome_cientifico":"Phalaenopsis shilleriena",
+            "desc":"O nome do gênero (Phal.) procede da latinização das palavras gregas: φάλαινα (phálaina), que significa \"mariposa\"; e ωΨις (opsis) que significa \"parecido\", aludindo à forma das flores de algumas espécies que se assemelham a mariposas em voo.",
+            "luminosidade" : "Alta",
+            "nessecidade_Agua":"Alta",
+            "imagem": "Orquídea-borboleta.jpg",
+            "dica1": "Sempre podar as folhas secas, mortas e murchas e passar um pouco de canela em pó nos espaços cortados para facilitar a cicatrização da planta. ",
+            "Dica2": "Em caso de pragas como fungos, bactérias, insetos (Ex: cochonilhas), usar detergente neutro diluído em água para limpar as folhagens.",
+            "dica3": "Usar fertilizantes para manter a saúde da planta.",
+            "dica4": "",
+            "dica5": ""
+        },
+        { 
+            "id": 2,
+            "nome": "Samambaia-america",
+            "nome_cientifico":"Nephrolepis exaltata",
+            "desc":"A samambaia americana, também conhecida como samambaia de Boston, é considerada uma das espécies mais cultivadas dentro dos lares brasileiros. Afinal, a samambaia americana é uma planta que se adapta muito bem aos ambientes internos. Sua presença traz beleza, frescor e ainda ajuda a melhorar a qualidade do ar.",
+            "luminosidade" : "Baixa",
+            "nessecidade_Agua":"Alta",
+            "imagem": "Samambaia-america.jpg",
+            "dica1": "Regar de modo que o substrato fique úmido, mas não encharcado.",
+            "dica2": "Deixar a planta sob luz indireta.",
+            "dica3": "Evitar colocar a samambaia em locais com frio e ventos intensos.",
+            "dica4": "",
+            "dica5": ""
+        },
+        { 
+            "id": 3,
+            "nome": "Rosa-do-deserto",
+            "nome_cientifico":"Adenium Obesum",
+            "desc":"As rosas do deserto são plantas suculentas, que apresentam folhas pequenas, caule e raízes grossas que servem para reserva de água, juntamente com suas flores de tamanho e cores variadas, conferem a elas um grande valor ornamental.",
+            "luminosidade" : "Alta",
+            "nessecidade_Agua":"Média",
+            "imagem": "Rosa-do-deserto.jpg",
+            "dica1": "Manter em um ambiente com baixa umidade;",
+            "dica2": "Podar as plantas secas e murchas;",
+            "dica3": "Ao manusear a planta, utilize luvas pois sua seiva é altamente tóxica.",
+            "dica4": "",
+            "dica5": ""
+        },
+        { 
+            "id": 4,
+            "nome": "Suculenta",
+            "nome_cientifico":"Aeonium haworthii",
+            "desc":"As plantas suculentas são aquelas que possuem raiz, o talo ou as folhas engrossados para permitir o armazenamento de água em quantidades muito maiores que nas plantas normais.",
+            "luminosidade" : "Alta",
+            "nessecidade_Agua":"Baixa",
+            "imagem": "Suculenta.jpg",
+            "dica1": "Deixe a planta em um local que receba luz indireta do sol;",
+            "dica2": "Não encharcar o solo;",
+            "dica3": "Retire as folhas secas e murchas da planta.",
+            "dica4": "",
+            "dica5": ""
+        }
+        
+    ]
+
+}
