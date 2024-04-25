@@ -26,10 +26,10 @@ export default function Profile(){
         <AntDesign name="setting" size={33} color="black"/>
         </TouchableOpacity>
         <View style={styles.username}>
-            <Text>user name</Text>
+            <Text style={{fontSize:20, fontWeight:"bold"}}>Fabio da Silva</Text>
         </View>
         <View style={styles.informacao}>
-            <Text>informação</Text>
+            <Text style={{fontStyle:"italic",}}>Escreva sobre você</Text>
         </View>
         <View style={styles.box}>
             <TouchableOpacity>
