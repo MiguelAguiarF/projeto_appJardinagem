@@ -4,7 +4,7 @@ import { Text, TextInput, View, Image, TouchableOpacity } from "react-native";
 import ColossalLogo from "../assets/logo_colossal.png";
 import CustomButton from "../components/CustomButton";
 import styles from "../../Styles";
-import { Entypo } from '@expo/vector-icons';
+import { Entypo, AntDesign } from '@expo/vector-icons';
 
 export default function Login() {
   const [email, setEmail]=useState("");
@@ -43,9 +43,10 @@ export default function Login() {
         <Text style={styles.texto}>Entrar</Text>
       </View>
 
-      
+      <View style={styles.input}>
+      <Entypo name="email" size={22} color="#959ba3" />
         <TextInput
-          style={styles.input}
+        style={styles.intexto}
           value={email}
           onChangeText={(text) => setEmail(text)}
           placeholder= " Digite seu email"
@@ -53,15 +54,19 @@ export default function Login() {
           keyboardType="email-address"
           
         />
+        </View>
 
+    <View style={styles.input}>
+      <AntDesign name="lock" size={24} color="#959ba3" />
       <TextInput
-        style={styles.input}
+        style={styles.intexto}
         value={password}
         onChangeText={(text) => setPassword(text)}
         placeholder="Digite sua senha"
         placeholderTextColor="#959ba3"
         secureTextEntry={true}
       />
+    </View>
 
         <TouchableOpacity>
           <Text style={styles.text}>Esqueceu a senha?</Text>

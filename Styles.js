@@ -24,6 +24,10 @@ const styles = StyleSheet.create({
     textAlign:"left",
   },
 
+  intexto:{
+    fontSize:20,
+  },
+
   input: {
     width: "100%",
     marginBottom: 16,
@@ -35,6 +39,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     color: "#1f2124",
     borderBottomWidth:1,
+    flexDirection: "row",
   },
 
   text:{
